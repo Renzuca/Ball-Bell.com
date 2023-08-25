@@ -1,0 +1,69 @@
+.SeccionPrincipal{
+    display: flex;
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imginicio{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+    margin: 20px;
+    border-radius: 5%;
+
+}
+
+.imginicio:hover{
+     cursor:pointer;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    opacity: 1;    
+}
+
+
+
+.body{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 25%, rgba(255,255,255,1) 100%);
+}
+
+.Navegacion{
+    font-size:35px;
+    margin-left: 14%;
+        
+}
+
+.ancla{
+    padding-right: 50px;
+}
+.Logo{
+    width: 20%;    
+}
+
+.navbar-brand{
+    width: 20%;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.TextoFooter{
+    color: aliceblue;
+    font-size: 20px;
+    display:flex;
+}
+
+.divFooter{
+    text-align: center;
+}
